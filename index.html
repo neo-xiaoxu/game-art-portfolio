@@ -3,82 +3,98 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101217">
-  <meta name="description" content="熊宇枭，游戏原画设计师。角色设定、欧美卡通、美宣与游戏 UI 作品集。">
-  <title>熊宇枭｜游戏原画设计师</title>
+  <meta name="theme-color" content="#080a10">
+  <meta name="description" content="熊宇枭｜游戏原画设计师。角色设定、游戏视觉、美宣与 UI 作品集及完整工作经历。">
+  <title>熊宇枭 — 游戏原画设计师 / GAME ARTIST</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
   <a class="skip-link" href="#main">跳到正文</a>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="熊宇枭，返回顶部"><span class="brand-mark">XYX<span class="brand-dot">.</span></span><span class="brand-label">熊宇枭<br><small>GAME ARTIST</small></span></a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="打开菜单"><span></span><span></span></button>
-    <nav id="nav" class="nav" aria-label="主导航"><a href="#work">精选作品</a><a href="#gallery">作品画廊</a><a href="#about">关于我</a><a class="nav-cta" href="#contact">联系我 <span aria-hidden="true">↗</span></a></nav>
+  <header class="header">
+    <a class="identity" href="#top" aria-label="熊宇枭，返回顶部"><span class="identity-icon">X<span>.</span></span><span>熊宇枭<small>GAME ARTIST / PORTFOLIO</small></span></a>
+    <nav class="nav" id="nav" aria-label="主导航">
+      <a href="#selected">精选项目</a><a href="#gallery">作品档案</a><a href="#experience">工作经历</a><a href="#about">关于我</a><a class="nav-contact" href="#contact">联系我 <span>↗</span></a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
   </header>
+
   <main id="main">
     <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="hero-grid">
-        <div class="hero-copy">
-          <div class="eyebrow"><span class="live-dot"></span> 成都 · 游戏原画设计师</div>
-          <p class="hero-overline">CHARACTER DESIGN <span>/</span> GAME ART</p>
-          <h1 id="hero-title">让角色<br><em>从设定</em><br>走进游戏<span class="period">.</span></h1>
-          <p class="hero-intro">我是熊宇枭。专注角色原画与视觉设定，能够从风格探索、角色设计到立绘与落地素材，建立清晰且有辨识度的游戏形象。</p>
-          <div class="hero-actions"><a class="button button-primary" href="#work">浏览作品 <span aria-hidden="true">↘</span></a><a class="button button-ghost" href="#contact">联系合作 <span aria-hidden="true">↗</span></a></div>
-          <div class="hero-foot"><span>01 / 04</span><span>向下探索作品集</span><span aria-hidden="true">↓</span></div>
-        </div>
-        <div class="hero-art">
-          <img class="hero-main-art" src="assets/hero-dragon.webp" alt="奇幻三头龙角色设计特写" fetchpriority="high">
-          <div class="hero-art-label"><span>FEATURED CHARACTER</span><strong>Dragon of Fire and Frost</strong><span>角色设定 · 三视图</span></div>
-          <div class="hero-art-index">01 <span>/ 03</span></div>
-        </div>
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="hero-media"><img src="assets/dark-fantasy-scene.webp" alt="暗黑奇幻游戏场景与角色视觉作品" fetchpriority="high"><div class="hero-media-fade"></div><div class="hero-media-label"><span class="signal"></span> VISUAL DEVELOPMENT / 2026</div></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> 熊宇枭 · 游戏原画设计师</p>
+        <h1 id="hero-title"><span>把想象</span><span class="h1-outline">画进</span><span>游戏世界<span class="accent">.</span></span></h1>
+        <p class="hero-en">CHARACTER DESIGN&nbsp; / &nbsp;GAME ART&nbsp; / &nbsp;VISUAL STORYTELLING</p>
+        <p class="hero-description">从角色设定、皮肤与立绘，到游戏内视觉和宣传素材。以有辨识度的造型和清晰的设计逻辑，让每一个角色走进玩家的视野。</p>
+        <div class="hero-actions"><a class="button button-primary" href="#selected">探索作品 <span>↗</span></a><a class="button button-secondary" href="#experience">查看经历 <span>↓</span></a></div>
       </div>
-      <div class="hero-ticker" aria-label="作品方向"><div class="ticker-inner"><span>角色设定</span><b>✦</b><span>欧美卡通</span><b>✦</b><span>美宣视觉</span><b>✦</b><span>游戏 UI</span><b>✦</b><span>角色设定</span><b>✦</b><span>欧美卡通</span><b>✦</b><span>美宣视觉</span><b>✦</b><span>游戏 UI</span></div></div>
+      <div class="hero-bottom"><span>BASED IN CHENGDU · CHINA</span><span>SCROLL TO EXPLORE <b>↓</b></span><span>01 — 05</span></div>
+      <div class="hero-side" aria-hidden="true">ORIGINAL ART / GAME WORLDS / CHARACTER CONCEPT</div>
     </section>
 
-    <section class="section selected" id="work" aria-labelledby="selected-title">
-      <div class="section-head"><div><p class="section-kicker">01 / SELECTED WORK</p><h2 id="selected-title">精选<span>作品</span><sup>03</sup></h2></div><p>从角色语言、结构拆解到游戏内呈现，展示不同项目中的设计思路与视觉方向。</p></div>
-      <div class="feature-grid">
-        <button class="feature-card feature-large" type="button" data-image="assets/mech-scene.webp" data-title="末日战士 · 游戏内呈现" data-detail="角色设计 / 场景内效果 / 技能展示">
-          <img src="assets/mech-scene.webp" alt="末日战士机械角色的游戏内场景及技能展示" loading="lazy"><span class="card-shade"></span><span class="feature-meta"><small>01 / CHARACTER IN GAME</small><strong>末日战士</strong><span>从设定到游戏内呈现</span></span><span class="card-arrow" aria-hidden="true">↗</span>
-        </button>
-        <button class="feature-card" type="button" data-image="assets/dragon.webp" data-title="Dragon of Fire and Frost" data-detail="奇幻角色设计 / 配色探索 / 三视图">
-          <img src="assets/dragon.webp" alt="Dragon of Fire and Frost 角色设计板" loading="lazy"><span class="card-shade"></span><span class="feature-meta"><small>02 / CHARACTER DESIGN</small><strong>Dragon of Fire and Frost</strong><span>角色设定与三视图</span></span><span class="card-arrow" aria-hidden="true">↗</span>
-        </button>
-        <button class="feature-card" type="button" data-image="assets/rescue-team.webp" data-title="紧急救援队" data-detail="角色设定 / 服装与配件探索">
-          <img src="assets/rescue-team.webp" alt="紧急救援队角色及服装设定板" loading="lazy"><span class="card-shade"></span><span class="feature-meta"><small>03 / CHARACTER DESIGN</small><strong>紧急救援队</strong><span>角色气质与服装设定</span></span><span class="card-arrow" aria-hidden="true">↗</span>
-        </button>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>CHARACTER DESIGN</span><i>✦</i><span>GAME ART</span><i>✦</i><span>VISUAL DEVELOPMENT</span><i>✦</i><span>角色原画</span><i>✦</i><span>CHARACTER DESIGN</span><i>✦</i><span>GAME ART</span><i>✦</i><span>VISUAL DEVELOPMENT</span><i>✦</i><span>角色原画</span><i>✦</i></div></div>
+
+    <section class="section selected" id="selected" aria-labelledby="selected-title">
+      <div class="section-heading reveal"><div><p class="section-number">01 / FEATURED PROJECTS</p><h2 id="selected-title">精选<span>项目</span><em> / 03</em></h2></div><p>角色、设定与游戏世界。从创意草图到最终画面，展示不同视觉风格下的设计能力。</p></div>
+      <div class="featured-layout">
+        <button class="featured-card featured-primary reveal" type="button" data-image="assets/mecha-in-game.webp" data-title="末日战士 · 游戏内表现" data-detail="机械角色从设定到游戏场景与技能效果的呈现"><img src="assets/mecha-in-game.webp" alt="末日战士角色在游戏场景中的表现与技能效果" loading="lazy"><span class="featured-overlay"></span><span class="featured-top"><small>01 / CHARACTER IN GAME</small><b>↗</b></span><span class="featured-caption"><strong>末日战士</strong><small>角色设计 · 游戏内表现</small></span></button>
+        <div class="featured-stack">
+          <button class="featured-card reveal" type="button" data-image="assets/dragon-design.webp" data-title="Dragon of Fire and Frost" data-detail="奇幻龙角色设计、配色探索与三视图"><img src="assets/dragon-design.webp" alt="Dragon of Fire and Frost 角色设定与三视图" loading="lazy"><span class="featured-overlay"></span><span class="featured-top"><small>02 / CREATURE CONCEPT</small><b>↗</b></span><span class="featured-caption"><strong>Dragon of Fire and Frost</strong><small>生物设定 · 三视图</small></span></button>
+          <button class="featured-card reveal" type="button" data-image="assets/violet-character.webp" data-title="奇幻角色视觉设定" data-detail="角色造型、局部细节与设计探索"><img src="assets/violet-character.webp" alt="紫色奇幻角色设定、局部细节与造型探索" loading="lazy"><span class="featured-overlay"></span><span class="featured-top"><small>03 / CHARACTER DESIGN</small><b>↗</b></span><span class="featured-caption"><strong>奇幻角色设定</strong><small>角色原画 · 视觉探索</small></span></button>
+        </div>
       </div>
     </section>
 
-    <section class="quote-band" aria-label="设计方向"><p>从一个轮廓、一套配色，到玩家真正记住的<span>角色。</span></p><div class="quote-symbol" aria-hidden="true">✳</div></section>
+    <section class="statement" aria-label="创作理念"><div class="statement-index">FROM SKETCH TO SCREEN <span>↗</span></div><p class="reveal">让每一笔设定，<br>都成为<span>世界的一部分。</span></p><div class="statement-orbit" aria-hidden="true">✳</div></section>
 
-    <section class="section gallery-section" id="gallery" aria-labelledby="gallery-title">
-      <div class="section-head"><div><p class="section-kicker">02 / PORTFOLIO</p><h2 id="gallery-title">作品<span>画廊</span></h2></div><p>角色原画为主，也包含风格化素材、美宣视觉与游戏 UI。点击作品可查看大图。</p></div>
-      <div class="filters" role="group" aria-label="筛选作品"><button class="filter active" type="button" data-filter="all" aria-pressed="true">全部作品 <span>12</span></button><button class="filter" type="button" data-filter="character" aria-pressed="false">角色设定</button><button class="filter" type="button" data-filter="stylized" aria-pressed="false">欧美卡通</button><button class="filter" type="button" data-filter="visual" aria-pressed="false">美宣视觉</button><button class="filter" type="button" data-filter="ui" aria-pressed="false">游戏 UI</button></div>
+    <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-heading reveal"><div><p class="section-number">02 / ART ARCHIVE</p><h2 id="gallery-title">作品<span>档案</span><em> / 16</em></h2></div><p>点击任意作品查看完整大图。按方向筛选，快速浏览角色设定、世界视觉、宣传图和游戏界面。</p></div>
+      <div class="filters reveal" role="group" aria-label="筛选作品"><button class="filter active" type="button" data-filter="all" aria-pressed="true">全部 <span>16</span></button><button class="filter" type="button" data-filter="character" aria-pressed="false">角色设定</button><button class="filter" type="button" data-filter="world" aria-pressed="false">游戏视觉</button><button class="filter" type="button" data-filter="marketing" aria-pressed="false">宣传美术</button><button class="filter" type="button" data-filter="ui" aria-pressed="false">游戏 UI</button></div>
       <div class="gallery-grid">
-        <button class="gallery-card" type="button" data-category="character" data-image="assets/mech-concept.webp" data-title="末日战士 · 角色设定" data-detail="角色造型、武器细节与方案探索"><span class="gallery-image"><img src="assets/mech-concept.webp" alt="末日战士角色与武器概念设计" loading="lazy"></span><span class="gallery-caption"><span><small>角色设定 / 01</small><strong>末日战士 · 设定板</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="character" data-image="assets/violet-character.webp" data-title="紫色角色设计" data-detail="角色探索、细节与游戏内效果"><span class="gallery-image"><img src="assets/violet-character.webp" alt="紫色奇幻角色设定与游戏内展示" loading="lazy"></span><span class="gallery-caption"><span><small>角色设定 / 02</small><strong>奇幻角色设计</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="character" data-image="assets/tiger-mecha.webp" data-title="Tiger Mecha" data-detail="机甲角色与部件拆解"><span class="gallery-image"><img src="assets/tiger-mecha.webp" alt="Tiger Mecha 机甲设计与部件拆解" loading="lazy"></span><span class="gallery-caption"><span><small>角色设定 / 03</small><strong>Tiger Mecha</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="character" data-image="assets/nexus-duo.webp" data-title="NEXUS · 双角色概念" data-detail="AI 辅助概念设计"><span class="gallery-image"><img src="assets/nexus-duo.webp" alt="NEXUS 双角色概念设定，AI 辅助概念设计" loading="lazy"></span><span class="gallery-caption"><span><small>角色设定 / AI 辅助概念</small><strong>NEXUS · 双角色</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="character" data-image="assets/nexus-angel.webp" data-title="NEXUS · 翼族设定" data-detail="AI 辅助概念设计；三视图与局部细节"><span class="gallery-image"><img src="assets/nexus-angel.webp" alt="NEXUS 翼族角色设定，AI 辅助概念设计" loading="lazy"></span><span class="gallery-caption"><span><small>角色设定 / AI 辅助概念</small><strong>NEXUS · 翼族设定</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="stylized" data-image="assets/stylized-characters.webp" data-title="欧美卡通 · 角色组" data-detail="风格化角色与怪物形象"><span class="gallery-image"><img src="assets/stylized-characters.webp" alt="欧美卡通风格角色与怪物形象设计" loading="lazy"></span><span class="gallery-caption"><span><small>欧美卡通 / 01</small><strong>风格化角色组</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="stylized" data-image="assets/match-game.webp" data-title="休闲游戏 · 美术素材" data-detail="休闲游戏内视觉与图标素材"><span class="gallery-image"><img src="assets/match-game.webp" alt="休闲游戏画面与美术图标素材" loading="lazy"></span><span class="gallery-caption"><span><small>欧美卡通 / 02</small><strong>休闲游戏素材</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="stylized" data-image="assets/happy-farm.webp" data-title="Happy Farm · 角色组" data-detail="卡通人物与动物角色设定"><span class="gallery-image"><img src="assets/happy-farm.webp" alt="Happy Farm 卡通人物与动物角色" loading="lazy"></span><span class="gallery-caption"><span><small>欧美卡通 / 03</small><strong>Happy Farm</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="visual" data-image="assets/war-fortress.webp" data-title="War Fortress · 美宣" data-detail="角色群像与游戏标识视觉"><span class="gallery-image"><img src="assets/war-fortress.webp" alt="War Fortress 角色群像美宣" loading="lazy"></span><span class="gallery-caption"><span><small>美宣视觉 / 01</small><strong>War Fortress</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="visual" data-image="assets/fantasy-kv-two.webp" data-title="休闲游戏 · 美宣视觉" data-detail="角色群像与加载视觉"><span class="gallery-image"><img src="assets/fantasy-kv-two.webp" alt="休闲游戏彩色角色群像美宣" loading="lazy"></span><span class="gallery-caption"><span><small>美宣视觉 / 02</small><strong>休闲游戏主视觉</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="ui" data-image="assets/capy-ui-screens.webp" data-title="Captain Capy · 游戏 UI" data-detail="界面、主场景与活动系统"><span class="gallery-image"><img src="assets/capy-ui-screens.webp" alt="Captain Capy 手机游戏界面设计" loading="lazy"></span><span class="gallery-caption"><span><small>游戏 UI / 01</small><strong>Captain Capy · 界面</strong></span><b aria-hidden="true">↗</b></span></button>
-        <button class="gallery-card" type="button" data-category="ui" data-image="assets/capy-ui-panels.webp" data-title="Captain Capy · 系统弹窗" data-detail="活动、任务与商店弹窗"><span class="gallery-image"><img src="assets/capy-ui-panels.webp" alt="Captain Capy 活动任务与商店 UI 弹窗" loading="lazy"></span><span class="gallery-caption"><span><small>游戏 UI / 02</small><strong>Captain Capy · 弹窗</strong></span><b aria-hidden="true">↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="character" data-image="assets/mecha-concept.webp" data-title="末日战士 · 角色设定" data-detail="机械角色造型、武器和结构设计"><span class="art-image"><img src="assets/mecha-concept.webp" alt="末日战士机械角色和武器设定板" loading="lazy"></span><span class="art-meta"><small>CHARACTER / 01</small><strong>末日战士 · 设定板</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="world" data-image="assets/mecha-in-game.webp" data-title="末日战士 · 游戏内表现" data-detail="角色场景及技能效果"><span class="art-image"><img src="assets/mecha-in-game.webp" alt="末日战士在游戏内的场景与技能展示" loading="lazy"></span><span class="art-meta"><small>IN GAME / 02</small><strong>末日战士 · 游戏内</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="character" data-image="assets/mecha-production.webp" data-title="角色制作与拆解" data-detail="模型、结构及角色制作过程"><span class="art-image"><img src="assets/mecha-production.webp" alt="游戏角色模型和设计制作拆解图" loading="lazy"></span><span class="art-meta"><small>PRODUCTION / 03</small><strong>角色制作拆解</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="character" data-image="assets/dragon-design.webp" data-title="Dragon of Fire and Frost" data-detail="龙角色设定、配色与三视图"><span class="art-image"><img src="assets/dragon-design.webp" alt="Dragon of Fire and Frost 龙角色设计" loading="lazy"></span><span class="art-meta"><small>CREATURE / 04</small><strong>Dragon of Fire and Frost</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="character" data-image="assets/tiger-mecha.webp" data-title="Tiger Mecha" data-detail="机甲造型、细节与部件拆解"><span class="art-image"><img src="assets/tiger-mecha.webp" alt="Tiger Mecha 机甲角色设计和部件拆解" loading="lazy"></span><span class="art-meta"><small>MECHA / 05</small><strong>Tiger Mecha</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="character" data-image="assets/rescue-team.webp" data-title="紧急救援队" data-detail="角色造型、服装与配件设计"><span class="art-image"><img src="assets/rescue-team.webp" alt="紧急救援队角色及服装设定" loading="lazy"></span><span class="art-meta"><small>CHARACTER / 06</small><strong>紧急救援队</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="character" data-image="assets/violet-character.webp" data-title="奇幻角色设定" data-detail="造型设计与视觉探索"><span class="art-image"><img src="assets/violet-character.webp" alt="紫色奇幻角色与设定细节" loading="lazy"></span><span class="art-meta"><small>FANTASY / 07</small><strong>奇幻角色设定</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="character" data-image="assets/happy-farm.webp" data-title="Happy Farm" data-detail="休闲游戏卡通角色与动物造型"><span class="art-image"><img src="assets/happy-farm.webp" alt="Happy Farm 人物与动物角色设计" loading="lazy"></span><span class="art-meta"><small>STYLIZED / 08</small><strong>Happy Farm</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="world" data-image="assets/heroes-and-map.webp" data-title="角色与关卡视觉" data-detail="角色群像、游戏画面及关卡地图设计"><span class="art-image"><img src="assets/heroes-and-map.webp" alt="游戏角色、游戏内画面与关卡地图视觉" loading="lazy"></span><span class="art-meta"><small>GAME WORLD / 09</small><strong>角色与关卡视觉</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="world" data-image="assets/dark-fantasy-scene.webp" data-title="暗黑奇幻场景" data-detail="游戏角色与场景氛围探索"><span class="art-image"><img src="assets/dark-fantasy-scene.webp" alt="暗黑奇幻角色与游戏场景设计" loading="lazy"></span><span class="art-meta"><small>ENVIRONMENT / 10</small><strong>暗黑奇幻场景</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="marketing" data-image="assets/war-fortress.webp" data-title="War Fortress" data-detail="角色群像主视觉"><span class="art-image"><img src="assets/war-fortress.webp" alt="War Fortress 游戏角色群像宣传图" loading="lazy"></span><span class="art-meta"><small>KEY VISUAL / 11</small><strong>War Fortress</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="marketing" data-image="assets/slot-promo.webp" data-title="休闲游戏宣传视觉" data-detail="角色群像与游戏活动宣传画面"><span class="art-image"><img src="assets/slot-promo.webp" alt="休闲游戏角色群像宣传画面" loading="lazy"></span><span class="art-meta"><small>KEY VISUAL / 12</small><strong>休闲游戏宣传视觉</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="marketing" data-image="assets/game-loading.webp" data-title="休闲游戏加载画面" data-detail="场景气氛与角色群像"><span class="art-image"><img src="assets/game-loading.webp" alt="休闲游戏角色群像与烟花加载画面" loading="lazy"></span><span class="art-meta"><small>LOADING / 13</small><strong>游戏加载画面</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="marketing" data-image="assets/game-celebration.webp" data-title="休闲游戏庆典画面" data-detail="角色、氛围与节日视觉"><span class="art-image"><img src="assets/game-celebration.webp" alt="休闲游戏庆典角色宣传画面" loading="lazy"></span><span class="art-meta"><small>KEY VISUAL / 14</small><strong>游戏庆典画面</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="ui" data-image="assets/match-game.webp" data-title="休闲游戏 UI 与图标" data-detail="游戏界面、道具与图标素材"><span class="art-image"><img src="assets/match-game.webp" alt="休闲游戏界面和图标素材" loading="lazy"></span><span class="art-meta"><small>GAME UI / 15</small><strong>休闲游戏 UI 与图标</strong><b>↗</b></span></button>
+        <button class="art-card reveal" type="button" data-category="ui" data-image="assets/game-ui.webp" data-title="手游界面设计" data-detail="多组手游界面与系统展示"><span class="art-image"><img src="assets/game-ui.webp" alt="多组手游界面设计长图" loading="lazy"></span><span class="art-meta"><small>GAME UI / 16</small><strong>手游界面设计</strong><b>↗</b></span></button>
       </div>
     </section>
 
-    <section class="about-section" id="about" aria-labelledby="about-title"><div class="section about-wrap"><div class="about-intro"><p class="section-kicker">03 / ABOUT</p><h2 id="about-title">关于<span>我</span></h2><p class="about-lead">持续参与游戏美术项目，关注角色造型的辨识度，也关注设计在实际产品中的可用性。</p><div class="skill-list"><span>角色原画</span><span>角色皮肤</span><span>立绘</span><span>欧美卡通</span><span>美宣视觉</span><span>游戏 UI</span></div></div><div class="about-detail"><h3>从设定到落地</h3><p>经历涵盖角色原画、皮肤、立绘、道具图标与 UI。可根据项目风格切换视觉语言，配合策划、动画与研发完成素材交付。</p><h3>工作方式</h3><p>熟悉 AI 辅助探索与出图工作流，并将其用于概念发散和效率提升。作品中涉及 AI 辅助概念设计的内容已明确标注。</p><div class="about-line"><span>2018 — 至今</span><span>游戏美术相关工作经验</span></div><div class="about-line"><span>现居成都</span><span>目标岗位：游戏原画设计师</span></div></div></div></section>
+    <section class="experience-section" id="experience" aria-labelledby="experience-title"><div class="section">
+      <div class="section-heading reveal"><div><p class="section-number">03 / CAREER TIMELINE</p><h2 id="experience-title">工作<span>经历</span><em> / 08</em></h2></div><p>从角色原画到执行主美，历经不同品类与制作阶段。以下按简历中的任职时间逐段列出职责与项目。</p></div>
+      <div class="experience-list">
+        <article class="experience-card reveal"><div class="experience-time"><span class="experience-index">08</span><time>2026.06 — 至今</time><span class="now-chip">CURRENT</span></div><div class="experience-main"><div class="experience-title"><h3>卓瀚科技</h3><span>执行主美</span></div><p>负责中度手游所有美术相关工作的审核，制作 UI 原画，保证项目视觉方向与素材质量。</p><div class="experience-tags"><span>美术审核</span><span>UI 原画</span><span>中度手游</span></div></div></article>
+        <article class="experience-card reveal"><div class="experience-time"><span class="experience-index">07</span><time>2026.03 — 2026.05</time></div><div class="experience-main"><div class="experience-title"><h3>灵创互娱（乐圣信文）</h3><span>角色原画</span></div><p>参与二合、三消类游戏图标的设计与细化，并绘制项目宣传图。</p><div class="experience-tags"><span>Mahjong Blast</span><span>Tile Explorer - Triple Match</span><span>Block Factory!</span></div></div></article>
+        <article class="experience-card reveal"><div class="experience-time"><span class="experience-index">06</span><time>2025.03 — 2026.03</time></div><div class="experience-main"><div class="experience-title"><h3>火蚁乐园科技</h3><span>角色原画</span></div><p>设计角色皮肤与 Symbols，绘制宣传图、加载画面及主视觉（KV）等游戏美术素材。</p><div class="experience-tags"><span>角色皮肤</span><span>Symbols</span><span>宣传图 / Loading / KV</span></div></div></article>
+        <article class="experience-card reveal"><div class="experience-time"><span class="experience-index">05</span><time>2023.02 — 2023.09</time></div><div class="experience-main"><div class="experience-title"><h3>克赛科技</h3><span>角色原画</span></div><p>负责项目角色立绘与角色设计，参与 3D 卡牌对战、休闲手游及皇室战争风格方向的角色视觉制作。</p><div class="experience-tags"><span>角色立绘</span><span>角色设计</span><span>3D 卡牌 / 休闲手游</span></div></div></article>
+        <article class="experience-card reveal"><div class="experience-time"><span class="experience-index">04</span><time>2021.05 — 2022.12</time></div><div class="experience-main"><div class="experience-title"><h3>龙渊网络</h3><span>角色原画（代理组长）</span></div><p>进行角色与角色皮肤设计、立绘绘制；对接不同部门，推动原画在项目中落地。</p><div class="experience-tags"><span>Auto Chess MOBA</span><span>多多自走棋</span><span>角色 / 皮肤设计</span></div></div></article>
+        <article class="experience-card reveal"><div class="experience-time"><span class="experience-index">03</span><time>2020.05 — 2021.04</time></div><div class="experience-main"><div class="experience-title"><h3>多利斯科技有限公司</h3><span>角色原画</span></div><p>绘制项目角色立绘和角色设计，参与动画补面及特效关键帧绘制。</p><div class="experience-tags"><span>Kingdom Slots</span><span>角色设计</span><span>立绘 / 宣传图 / 图标</span></div></div></article>
+        <article class="experience-card reveal"><div class="experience-time"><span class="experience-index">02</span><time>2019.02 — 2020.03</time></div><div class="experience-main"><div class="experience-title"><h3>音秀科技</h3><span>角色原画</span></div><p>承担角色立绘与设定、动画补面和特效关键帧，并绘制场景小物件、休闲游戏美术及等级、技能、装备图标。</p><div class="experience-tags"><span>Paint Color</span><span>我爱拼模型</span><span>角色 / 场景 / 图标</span></div></div></article>
+        <article class="experience-card reveal"><div class="experience-time"><span class="experience-index">01</span><time>2018.03 — 2018.09</time></div><div class="experience-main"><div class="experience-title"><h3>艾仕伽网络科技有限公司</h3><span>角色原画</span></div><p>根据项目需求绘制角色原画、装备图标等游戏美术素材。</p><div class="experience-tags"><span>角色原画</span><span>装备图标</span></div></div></article>
+      </div>
+    </div></section>
 
-    <section class="section experience" aria-labelledby="experience-title"><div class="section-head"><div><p class="section-kicker">04 / EXPERIENCE</p><h2 id="experience-title">工作<span>经历</span></h2></div><p>角色设计、立绘与游戏视觉制作经验，覆盖休闲游戏与中度手游项目。</p></div><div class="timeline"><div class="timeline-item"><span>2026.06 — 至今</span><div><h3>卓瀚科技</h3><p>中度手游美术相关工作审核、UI 原画制作。</p></div><b>当前</b></div><div class="timeline-item"><span>2021.05 — 2022.12</span><div><h3>龙渊网络</h3><p>角色设计、角色皮肤设计、立绘制作，并与不同部门对接确保画面落地。</p></div><b>角色原画</b></div><div class="timeline-item"><span>2018.03 — 2021.04</span><div><h3>游戏角色原画经验</h3><p>参与角色立绘、动画关键帧、场景小物件和游戏图标绘制。</p></div><b>设计与制作</b></div></div></section>
+    <section class="section about" id="about" aria-labelledby="about-title"><div class="about-copy reveal"><p class="section-number">04 / ABOUT THE ARTIST</p><h2 id="about-title">关于<span>我</span></h2><p class="about-lead">热爱游戏，也热爱把抽象的想法变成可感知的角色与世界。</p><p>具备角色原画、皮肤、立绘、宣传视觉及游戏 UI 的项目经验。熟悉多种画风切换，重视跨部门沟通与设计落地；也会使用 AI 工具辅助概念探索与工作流程。</p><div class="about-education"><span>EDUCATION</span><strong>西安文理学院 · 艺术设计</strong><small>大专 / 2016 — 2018</small></div></div><div class="about-visual reveal"><div class="about-visual-main"><img src="assets/heroes-and-map.webp" alt="游戏角色群像与关卡视觉作品" loading="lazy"></div><div class="about-stamp">ART<br>MAKES<br>WORLDS <span>✦</span></div><div class="about-skills"><span>CHARACTER DESIGN</span><span>KEY VISUAL</span><span>GAME UI</span><span>STYLIZED ART</span></div></div></section>
 
-    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="section contact-wrap"><div><p class="section-kicker">LET'S TALK</p><h2 id="contact-title">一起创造<br><em>下一个角色</em><span>.</span></h2><p>游戏原画设计师岗位与项目合作，欢迎联系。</p></div><div class="contact-links"><a href="mailto:479412649@qq.com"><small>EMAIL</small><strong>479412649@qq.com</strong><span aria-hidden="true">↗</span></a><a href="tel:+8617608003479"><small>PHONE</small><strong>176 0800 3479</strong><span aria-hidden="true">↗</span></a><a href="https://www.artstation.com/1_liushan" target="_blank" rel="noopener noreferrer"><small>ARTSTATION</small><strong>查看更多作品</strong><span aria-hidden="true">↗</span></a></div></div><footer><span>© 2026 熊宇枭</span><span>GAME ARTIST · CHENGDU</span><a href="#top">回到顶部 ↑</a></footer></section>
+    <section class="contact" id="contact" aria-labelledby="contact-title"><div class="section contact-inner"><div class="reveal"><p class="section-number">05 / LET'S CONNECT</p><h2 id="contact-title">一起创造<br><span>下一个角色。</span></h2><p>正在寻找游戏原画设计师岗位及合适的项目合作机会。</p></div><div class="contact-links reveal"><a href="mailto:479412649@qq.com"><small>EMAIL</small><strong>479412649@qq.com</strong><span>↗</span></a><a href="tel:+8617608003479"><small>PHONE</small><strong>176 0800 3479</strong><span>↗</span></a><a href="https://www.artstation.com/1_liushan" target="_blank" rel="noopener noreferrer"><small>ARTSTATION</small><strong>查看作品主页</strong><span>↗</span></a></div></div><footer><span>© 2026 熊宇枭 · GAME ARTIST</span><span>CHENGDU, CHINA</span><a href="#top">回到顶部 ↑</a></footer></section>
   </main>
-  <dialog class="lightbox" aria-label="作品大图"><button class="lightbox-close" type="button" aria-label="关闭作品大图">×</button><div class="lightbox-body"><img alt=""><div class="lightbox-caption"><span>PORTFOLIO / 熊宇枭</span><h3></h3><p></p></div></div></dialog>
+
+  <dialog class="lightbox" aria-label="作品大图"><button class="lightbox-close" type="button" aria-label="关闭作品大图">×</button><div class="lightbox-frame"><img alt=""><div class="lightbox-caption"><small>XYX / ART ARCHIVE</small><h3></h3><p></p></div></div></dialog>
   <script src="script.js"></script>
 </body>
 </html>
