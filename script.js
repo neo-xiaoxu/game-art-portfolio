@@ -52,18 +52,32 @@ const dialog = document.querySelector('.lightbox');
 const dialogImage = dialog.querySelector('img');
 const dialogTitle = dialog.querySelector('h3');
 const dialogDetail = dialog.querySelector('p');
+const zoomButton = dialog.querySelector('.lightbox-zoom');
 let lastTrigger;
 document.querySelectorAll('[data-image]').forEach(card => card.addEventListener('click', () => {
   lastTrigger = card;
+  const isLongform = card.dataset.longform === 'true';
+  dialog.classList.toggle('is-longform', isLongform);
+  dialog.classList.remove('is-zoomed');
+  zoomButton.hidden = !isLongform;
+  zoomButton.textContent = '放大 +';
   dialogImage.src = card.dataset.image;
   dialogImage.alt = card.querySelector('img')?.alt || card.dataset.title;
   dialogTitle.textContent = card.dataset.title;
   dialogDetail.textContent = card.dataset.detail || '';
   dialog.showModal();
+  dialog.scrollTop = 0;
+  dialog.scrollLeft = 0;
 }));
+zoomButton.addEventListener('click', () => {
+  const zoomed = dialog.classList.toggle('is-zoomed');
+  zoomButton.textContent = zoomed ? '适应宽度 −' : '放大 +';
+  zoomButton.setAttribute('aria-pressed', String(zoomed));
+});
 dialog.querySelector('.lightbox-close').addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
 dialog.addEventListener('close', () => {
   dialogImage.removeAttribute('src');
+  dialog.classList.remove('is-longform', 'is-zoomed');
   lastTrigger?.focus();
 });
